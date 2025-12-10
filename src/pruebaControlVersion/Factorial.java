@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Factorial {
 	private static Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 
 	private static long factorialBucle(int n) {
 	    long resultado = 1;
