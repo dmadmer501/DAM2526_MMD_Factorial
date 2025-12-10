@@ -1,0 +1,150 @@
+  415  cd pruebaControlVersiones/
+  416  ls
+  417  touch Factorial.java
+  418  ls
+  419  nano Factorial.java
+  420  nano Factorial.java
+  421  cd ..
+  422  cd ..
+  423  touch .gitignore
+  424  nano .gitignore
+  425  git status
+  426  git add .
+  427  git commit -m "A: versión inicial que pide número y valida >= 0"
+  428  git log
+  429  git remote add origin origin git@github.com:dmadmer501/DAM2526_MMD_Factorial.git
+  430  git push -u origin main
+  431  git remote add origin git@github.com:dmadmer501/DAM2526_MMD_Factorial.git
+  432  git push -u origin main
+  433  ls
+  434  cd src
+  435  ls
+  436  cd pruebaControlVersiones/
+  437  ls
+  438  nano Factorial.java
+  439  nano Factorial.java
+  440  cd ..
+  441  cd ..
+  442  git status
+  443  git add .
+  444  ls
+  445  cd src
+  446  ls
+  447  cd pruebaControlVersiones/
+  448  cd Factorial.java
+  449  ls
+  450  nano Factorial.java
+  451  cd ..
+  452  cd ..
+  453  git status
+  454  git add .
+  455  git commit -m "B: Agregada función pedir número"
+  456  git push
+  457  git log
+  458  ls
+  459  cd src
+  460  ls
+  461  cd pruebaControlVersion/
+  462  ls
+  463  nano Factorial.java
+  464  cd ..
+  465  cd ..
+  466  git status
+  467  git add .
+  468  git status
+  469  git commit -m "C: Agregado mensaje final con resultado"
+  470  git push
+  471  git log
+  472  ls
+  473  cd src
+  474  ls
+  475  cd pruebaControlVersion/
+  476  ls
+  477  git checkout -b factorial_recursivo
+  478  ls
+  479  git log
+  480  nano Factorial.java
+  481  git status
+  482  git add .
+  483  git commit -m "F1: Añadida funcion factorial recursiva"
+  484  git log
+  485  nano Factorial.java
+  486  git status
+  487  git add .
+  488  git commit -m "F2: Modificada llamada final con recursividad"
+  489  git status
+  490  git add .
+  491  git commit -m "F3: Añadidos comentarios explicativos de la llamada recursiva"
+  492  git log
+  493  git log --oneline --graph --all --decorate
+  494  git checkout main
+  495  ls
+  496  git status
+  497  git add .
+  498  git commit -m "D: Mejora de funcion pedirNumero y arreglo de bug"
+  499  git oçlog
+  500  git log
+  501  git push
+  502  git status
+  503  git add .
+  504  git commit -m "E: Añadida función iterativa de factorialBucle"
+  505  git push
+  506  git status
+  507  git add -
+  508  git commit -m "F: Añadida salida de funciónRecursiva final"
+  509  git add .
+  510  git status
+  511  git commit -m "F: Modificada salida de función iterativa"
+  512  git push
+  513  git push origin main
+  514  git log --oneline --graph --all --decorate
+  515  git checkout factorial_recursivo
+  516  git rebase main
+  517  git status
+  518  git add .
+  519  git add src/pruebaControlVersion/Factorial.java
+  520  git rebase --continue
+  521  git add .
+  522  git status
+  523  git commit
+  524  git push
+  525  git branch main
+  526  git checkout main
+  527  git branch factorial_recursivo a37eef4
+  528  git checkout factorial_recursivo
+  529  git log --oneline --graph --decorate --all
+  530  git status
+  531  git add .
+  532  git rebase --continue
+  533  git log --oneline --graph --decorate --all
+  534  git checkout main
+  535  git log
+  536  git checkout factorial_recursivo
+  537  git push
+  538  git log
+  539  clear
+  540  git log
+  541  git rebase main
+  542  git rebase main
+  543  git status
+  544  git add .
+  545  git rebase --continue
+  546  git status
+  547  git add .
+  548  git git rebase --continue
+  549  git rebase --continue
+  550  git add .
+  551  git git rebase --continue
+  552  git rebase --continue
+  553  git log --oneline --graph --decorate --all
+  554  git push -u origin factorial_recursivo
+  555  ñs
+  556  ls
+  557  nano Factorial.java
+  558  git checkout main
+  559  git commit -m "F4: ramas merge"
+  560  git add .
+  561  git commit -m "F4: Ramas merge"
+  562  git checkout main
+  563  git log --oneline --graph --decorate --all
+  564  history
