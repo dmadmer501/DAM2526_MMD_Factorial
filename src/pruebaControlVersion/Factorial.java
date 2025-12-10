@@ -5,6 +5,15 @@ import java.util.Scanner;
 public class Factorial {
 	private static Scanner sc = new Scanner(System.in);
 
+	private static long factorialBucle(int n) {
+	    long resultado = 1;
+	    for (int i = 2; i <= n; i++) {
+	        resultado *= i;
+	    }
+	    return resultado;
+	}
+
+	
 	private static int pedirNumero() {
 	    int num;
 	    boolean valido;
